@@ -1,7 +1,7 @@
 [project]
 name = "xontrib-fzf-completions"
-description = "fzf completions for xonsh"
 version = "0.0.2"
+description = "fzf completions for xonsh"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" }
