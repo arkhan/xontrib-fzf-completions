@@ -1,6 +1,7 @@
 [project]
 name = "xontrib-fzf-completions"
 description = "fzf completions for xonsh"
+version = "0.0.2"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" }
@@ -36,16 +37,6 @@ include-package-data = false
 
 [tool.setuptools.package-data]
 xontrib = ["*.xsh"]
-
-[tool.setuptools.packages.find]
-exclude = ["docs*", "tests*"]
-
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.txt"] }
-version = {attr = "_fzf_completions_version.__version__"}
-
-[tool.setuptools_scm]
-version_file = "_fzf_completions_version.py"
 
 [build-system]
 requires = ["setuptools>=43.0.0", "setuptools_scm>=8", "wheel"]
